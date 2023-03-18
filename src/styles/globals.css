@@ -1,13 +1,11 @@
 /* Google Font Import - Poppins */
 
-
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
- 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,9 +13,6 @@
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 208, 255, 207;
     --background-end-rgb: 208, 255, 207;
-
-    
-
   }
 }
 
@@ -48,3 +43,27 @@ a {
   text-decoration: none;
 }
 
+/* Mobile screens */
+
+@media screen and (max-width: 767px) {
+  :root {
+    --max-width: 100%;
+  }
+
+  .container {
+    padding: 50px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding-left: 0;
+  }
+
+  .card {
+    max-width: none;
+  }
+
+  .textContainer {
+    width: 100%;
+  }
+}
