@@ -20,7 +20,7 @@ function Projects() {
                 </div>
               </a>
             </Link>
-            <Link href="https://exercise-app-stable.vercel.app/" passHref={true} legacyBehavior={true}>
+            <Link href="https://my-portfolio-cm45.vercel.app/" passHref={true} legacyBehavior={true}>
               <a target="_blank" rel="noopener noreferrer">
                 <div className={styles.linkCard}>
                   <Image src="/pro2.PNG" alt="My Portfolio" width={600} height={400} />
