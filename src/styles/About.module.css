@@ -35,27 +35,36 @@
 
 @media (max-width: 768px) {
   .row {
-    flex-direction: column;
+    display: flex;
     align-items: center;
     justify-content: center;
   }
-
+  
   .imageContainer {
-    width: 70%;
-    padding: 30px;
+    width: 40%;
+    padding: 60px;
   }
-
+  
+  .imageContainer img {
+    max-width: 100%;
+    border-radius: 80px;
+    border: 2px solid #000000;
+  }
+  
   .textContainer {
-    width: 80%;
-    padding: 10px;
+    width: 50%;
+    padding: 20px;
   }
-
+  
   .textContainer h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .textContainer p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
   }
 
-  .textContainer p {
-    font-size: 16px;
-  }
-}
