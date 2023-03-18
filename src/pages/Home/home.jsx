@@ -1,25 +1,21 @@
-import Header from '../../../components/Header/Header'
-import styles from '@/styles/Home.module.css'
+import React from 'react';
+import Header from '../../../components/Header/Header';
 import Icons from '../../../components/Icons/icons';
 import HeadingHome from './heading_home';
 import ParagraphHome from './paragraph_home';
 
-
-
 const Home = () => {
   return (
-    <div className={styles.container}>
+    <React.Fragment>
       <Header />
-      
-      <br></br>
+      <br />
       <main>
-        <HeadingHome/>
-        <ParagraphHome/>
-        <Icons/>
-    </main>
-    </div>
+        <HeadingHome />
+        <ParagraphHome />
+        <Icons />
+      </main>
+    </React.Fragment>
+  );
+};
 
-  )
-}
-
-export default Home
+export default Home;

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import styles from '@/styles/Header.module.css';
+import Image from 'next/image';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ const Header = () => {
     <header className={`${styles.header} ${menuOpen ? styles.open : ''}`}>
       <nav className={styles.nav}>
         <div className={styles.logo}>
-            <img src="/logo.png" alt="Logo" />
+            <Image src="/logo.png" alt="Logo" width={100} height={100} />
         </div>
         <button className={styles.toggle} onClick={toggleMenu}>
         </button>
@@ -46,5 +47,4 @@ const Header = () => {
 };
 
 export default Header;
-
 
