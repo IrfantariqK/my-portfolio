@@ -1,0 +1,33 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer {
+  width: 40%;
+  padding: 60px;
+ 
+}
+
+.imageContainer img {
+  max-width: 100%;
+  border-radius: 80px;
+  border: 2px solid #000000;
+}
+
+.textContainer {
+  width: 50%;
+  padding: 20px;
+}
+
+.textContainer h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.textContainer p {
+  font-size: 18px;
+  line-height: 1.5;
+}
