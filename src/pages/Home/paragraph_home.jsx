@@ -1,4 +1,4 @@
-import styles from '@/styles/Paragraph.module.css'
+import styles from '../../styles/Paragraph.module.css'
 
 function ParagraphHome() {
   return (
