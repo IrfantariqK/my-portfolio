@@ -35,7 +35,7 @@ function Projects() {
                 <div className={styles.linkCard}>
                   <Image src="/pro4.PNG" alt="Texi" width={600} height={400} />
                   <h3>Texi App Login and Registration page</h3>
-                  <p>Created a login and registration page for Taxi using Next.js 13. Inside the registration page, there are fields for name, email, password, phone number, state, and city. You have used a library called &quot;Jio location&quot; which can determine the user&apos;s state and city based on their location. You have also utilized MongoDB, which is a NoSQL database. MongoDB allows for easy storage, retrieval, and manipulation of data.</p>
+                  <p>Created a login and registration page for Taxi using Next.js 13. Inside the registration page, there are fields for name, email, password, phone number, state, and city. You have used a library called &quot;Jio location&quot; which can determine the user&apos;s state and city based on their location. I&apos;ve have also utilized MongoDB, which is a NoSQL database. MongoDB allows for easy storage, retrieval, and manipulation of data.</p>
                 </div>
               </a>
             </Link>
