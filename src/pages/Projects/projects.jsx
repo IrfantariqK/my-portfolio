@@ -11,6 +11,7 @@ function Projects() {
       <main>
         <div className={styles.container}>
           <div className={styles.row}>
+
             <Link href="https://exercise-app-stable.vercel.app/" passHref={true} legacyBehavior={true}>
               <a target="_blank" rel="noopener noreferrer">
                 <div className={styles.linkCard}>
@@ -33,8 +34,8 @@ function Projects() {
               <a target="_blank" rel="noopener noreferrer">
                 <div className={styles.linkCard}>
                   <Image src="/pro4.PNG" alt="Texi" width={600} height={400} />
-                  <h3>Texi App Login and Registration page </h3>
-                  <p>I&apos;ve created a login and registration page for Taxi using Next.js 13. Inside the registration page, there are fields for name, email, password, phone number, state, and city. You have used a library called "geo location" which can determine the user's state and city based on their location.You have also utilized MongoDB, which is a NoSQL database. MongoDB allows for easy storage, retrieval, and manipulation of data.</p>
+                  <h3>Texi App Login and Registration page</h3>
+                  <p>Created a login and registration page for Taxi using Next.js 13. Inside the registration page, there are fields for name, email, password, phone number, state, and city. You have used a library called &quot;Jio location&quot; which can determine the user&apos;s state and city based on their location. You have also utilized MongoDB, which is a NoSQL database. MongoDB allows for easy storage, retrieval, and manipulation of data.</p>
                 </div>
               </a>
             </Link>
@@ -43,7 +44,7 @@ function Projects() {
                 <div className={styles.linkCard}>
                   <Image src="/pro3.gif" alt="Comeing soon" width={600} height={400} />
                   <h3>Coming Soon</h3>
-                  <p> I have many projects that are currently under construction, and you plan to add them to your portfolio application soon. I wish you the best of luck with completing those projects</p>
+                  <p> I have many projects that are currently under construction, and you plan to add them to your portfolio application soon. I wish you the best of luck with completing those projects&apos;</p>
                 </div>
               </a>
             </Link>
