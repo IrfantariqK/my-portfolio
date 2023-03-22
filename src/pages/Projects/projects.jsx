@@ -25,7 +25,7 @@ function Projects() {
                 <div className={styles.linkCard}>
                   <Image src="/pro2.PNG" alt="My Portfolio" width={600} height={400} />
                   <h3>Portfolio App</h3>
-                  <p>I&apos;ve created a login and registration page for Taxi using Next.js 13. Inside the registration page, there are fields for name, email, password, phone number, state, and city. You have used a library called "geo location" which can determine the user's state and city based on their location.You have also utilized MongoDB, which is a NoSQL database. MongoDB allows for easy storage, retrieval, and manipulation of data.</p>
+                  <p>I&apos;ve created a portfolio application using Next.js 13. The application includes a header with links to the home, about, projects, and skills pages. On the about page, I&apos;ve provided information about myself. On the projects page, I&apos;ve listed the projects I&apos;ve worked on along with information and links to their websites. On the skills page, I&apos;ve listed the skills that I possess. In summary, this portfolio application is designed to showcase my work and skills to potential clients or employers.</p>
                 </div>
               </a>
             </Link>
@@ -34,7 +34,7 @@ function Projects() {
                 <div className={styles.linkCard}>
                   <Image src="/pro4.PNG" alt="Texi" width={600} height={400} />
                   <h3>Texi App Login and Registration page </h3>
-                  <p>I&apos;ve created a portfolio application using Next.js 13. The application includes a header with links to the home, about, projects, and skills pages. On the about page, I&apos;ve provided information about myself. On the projects page, I&apos;ve listed the projects I&apos;ve worked on along with information and links to their websites. On the skills page, I&apos;ve listed the skills that I possess. In summary, this portfolio application is designed to showcase my work and skills to potential clients or employers.</p>
+                  <p>I&apos;ve created a login and registration page for Taxi using Next.js 13. Inside the registration page, there are fields for name, email, password, phone number, state, and city. You have used a library called "geo location" which can determine the user's state and city based on their location.You have also utilized MongoDB, which is a NoSQL database. MongoDB allows for easy storage, retrieval, and manipulation of data.</p>
                 </div>
               </a>
             </Link>
