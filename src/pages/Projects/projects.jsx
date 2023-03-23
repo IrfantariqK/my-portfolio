@@ -12,10 +12,10 @@ function Projects() {
         <div className={styles.container}>
           <div className={styles.row}>
 
-            <Link href="https://exercise-app-stable.vercel.app/" passHref={true} legacyBehavior={true}>
+            <Link href="https://vercel.com/irfantariqk/exercise-app-stable1" passHref={true} legacyBehavior={true}>
               <a target="_blank" rel="noopener noreferrer">
                 <div className={styles.linkCard}>
-                  <Image src="/pro1.jpg" alt="Exercise App" width={600} height={400} />
+                  <Image src="/pro1.PNG" alt="Exercise App" width={600} height={400} />
                   <h3>Exercise App</h3>
                   <p>I&apos;ve developed an exercise tracking web application using the MERN stack and Next.js 13. The application has a login page and a registration page. The home page of the application includes a dashboard and four activities: hiking, biking, cycling, swimming, and running. On the dashboard, users can set a challenge for each activity. When a user completes an activity, the application stores the data in the database and displays it on the user&apos;s activity page. Users can then edit or delete the activity as needed.</p>
                 </div>
