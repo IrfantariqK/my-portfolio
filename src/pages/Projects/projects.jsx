@@ -12,7 +12,7 @@ function Projects() {
         <div className={styles.container}>
           <div className={styles.row}>
 
-            <Link href="https://vercel.com/irfantariqk/exercise-app-stable1" passHref={true} legacyBehavior={true}>
+            <Link href="https://exercise-app-stable1.vercel.app/" passHref={true} legacyBehavior={true}>
               <a target="_blank" rel="noopener noreferrer">
                 <div className={styles.linkCard}>
                   <Image src="/pro1.PNG" alt="Exercise App" width={600} height={400} />
