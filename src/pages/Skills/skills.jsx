@@ -35,6 +35,10 @@ const skills = [
     title: 'MongoDB',
     imageSrc: '/img8.png'
   },
+  {
+    title: 'Github',
+    imageSrc: '/github.png'
+  },
 ]
 
 
