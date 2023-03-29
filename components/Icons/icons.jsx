@@ -6,7 +6,7 @@ import styles from '@/styles/Icons.module.css';
 const Icons = () => {
   return (
     <div className={styles.icons}>
-      <Link href="https://www.linkedin.com/" passHref={true} legacyBehavior={true}>
+      <Link href="https://www.linkedin.com/in/muhammad-irfan-tariq-602bb66a/" passHref={true} legacyBehavior={true}>
         <a target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
@@ -16,7 +16,7 @@ const Icons = () => {
           <FontAwesomeIcon icon={faWhatsapp} />
         </a>
       </Link>
-      <Link href="https://github.com/" passHref={true} legacyBehavior={true}>
+      <Link href="https://github.com/IrfantariqK" passHref={true} legacyBehavior={true}>
         <a target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />
         </a>
