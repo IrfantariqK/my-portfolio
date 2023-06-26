@@ -39,7 +39,7 @@ function Projects() {
                 </div>
               </a>
             </Link>
-            <Link href="https://taxi-app-login.vercel.app/" passHref={true} legacyBehavior={true}>
+            <Link href="https://hasflix.vercel.app/" passHref={true} legacyBehavior={true}>
               <a target="_blank" rel="noopener noreferrer">
                 <div className={styles.linkCard}>
                   <Image src="/pro5.png" alt="Texi" width={600} height={400} />
